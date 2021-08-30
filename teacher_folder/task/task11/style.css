@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 1200px;
+    height: 300px;
+}
+.weather__cards {
+    width: 200px;
+    height: 100%;
+}  
+.header_cards p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+
+
+}
+.footer_cards p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+
+}
+.header_cards{
+    color: white;
+    background-color: rgb(59, 122, 240);
+}
+.weather__cards:nth-child(odd):hover{
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.97);
+}
+.weather__cards:nth-child(even):hover{
+    box-shadow: 3px 3px 10px 5px rgba(246,28,255,0.97);
+}
+

@@ -1,0 +1,24 @@
+
+.stone_item{
+    width: 100px;
+    height: 100px;
+}
+.stone_item img:hover + .human_item ul li:nth-child(odd){
+    opacity: 0;
+    transition: linear 0.5s;
+}
+.human_item{
+    width: 900px;
+    height: 1800px;
+}
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li, ul > li > img {
+    width: 140px;
+    height: 140px;
+    list-style-type: none;
+}
